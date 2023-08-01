@@ -12,9 +12,10 @@ const HeroPost = ({
   quote,
 }: Props) => {
   return (
-    <section className="flex flex-col align-center max-w-md space-y-5">
+    <section className="flex flex-col align-center max-w-md space-y-12">
       <PostNavigation />
       <p className="text-lg leading-relaxed">{quote}</p>
+      <PostNavigation />
     </section>
   )
 }

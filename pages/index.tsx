@@ -31,6 +31,7 @@ export default function Index({ allPosts }: Props) {
               quote={heroPost.excerpt}
             />
           )}
+          <span></span>
         </Container>
       </Layout>
     </>
