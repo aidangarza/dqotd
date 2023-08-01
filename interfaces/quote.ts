@@ -8,6 +8,7 @@ type QuoteType = {
     url: string
   }
   content: string
+  releaseDate: Date
 }
 
 export default QuoteType

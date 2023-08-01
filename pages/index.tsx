@@ -6,6 +6,8 @@ import Head from 'next/head'
 import Quote from '../interfaces/quote'
 import { useMemo } from 'react'
 import PostBody from '../components/post-body'
+import { SITE_NAME } from '../lib/constants'
+import Header from '../components/header'
 
 type Props = {
   latestQuote: Quote
@@ -18,10 +20,10 @@ export default function Index({ latestQuote }: Props) {
     <>
       <Layout>
         <Head>
-          <title>{`Disney Quote of the Day | ${today}`}</title>
+          <title>{`${SITE_NAME} | ${today}`}</title>
         </Head>
         <Container>
-          <Intro />
+          <Header />
           {latestQuote && <PostBody content={latestQuote.content} />}
         </Container>
       </Layout>
@@ -30,7 +32,7 @@ export default function Index({ latestQuote }: Props) {
 }
 
 export const getStaticProps = async () => {
-  const latestQuote = getLatestQuote(['content'])
+  const latestQuote = getLatestQuote(['slug', 'content'])
 
   return {
     props: { latestQuote },
