@@ -2,14 +2,14 @@ import Avatar from './avatar'
 import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
-import type Author from '../interfaces/author'
+import type Speaker from '../interfaces/speaker'
 
 type Props = {
   title: string
   coverImage: string
   date: string
   excerpt: string
-  author: Author
+  author: Speaker
   slug: string
 }
 

@@ -1,22 +1,18 @@
 import Container from '../components/container'
-import MoreStories from '../components/more-stories'
-import HeroPost from '../components/hero-post'
 import Intro from '../components/intro'
 import Layout from '../components/layout'
-import { getAllPosts } from '../lib/api'
+import { getLatestQuote } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
-import Post from '../interfaces/post'
+import Quote from '../interfaces/quote'
 import { useMemo } from 'react'
+import PostBody from '../components/post-body'
 
 type Props = {
-  allPosts: Post[]
+  latestQuote: Quote
 }
 
-export default function Index({ allPosts }: Props) {
+export default function Index({ latestQuote }: Props) {
   const today = useMemo(() => new Date().toLocaleDateString(), [])
-
-  const heroPost = allPosts[0]
 
   return (
     <>
@@ -26,8 +22,7 @@ export default function Index({ allPosts }: Props) {
         </Head>
         <Container>
           <Intro />
-          {heroPost && <HeroPost quote={heroPost.excerpt} />}
-          <span></span>
+          {latestQuote && <PostBody content={latestQuote.content} />}
         </Container>
       </Layout>
     </>
@@ -35,16 +30,9 @@ export default function Index({ allPosts }: Props) {
 }
 
 export const getStaticProps = async () => {
-  const allPosts = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-  ])
+  const latestQuote = getLatestQuote(['content'])
 
   return {
-    props: { allPosts },
+    props: { latestQuote },
   }
 }

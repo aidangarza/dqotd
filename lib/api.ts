@@ -2,15 +2,15 @@ import fs from 'fs'
 import { join } from 'path'
 import matter from 'gray-matter'
 
-const postsDirectory = join(process.cwd(), '_posts')
+const quotesDirectory = join(process.cwd(), '_quotes')
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory)
+export function getQuoteSlugs() {
+  return fs.readdirSync(quotesDirectory).sort()
 }
 
-export function getPostBySlug(slug: string, fields: string[] = []) {
+export function getQuoteBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = join(postsDirectory, `${realSlug}.md`)
+  const fullPath = join(quotesDirectory, `${realSlug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
@@ -37,11 +37,17 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   return items
 }
 
-export function getAllPosts(fields: string[] = []) {
-  const slugs = getPostSlugs()
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-  return posts
+export function getAllQuotes(fields: string[] = []) {
+  const slugs = getQuoteSlugs()
+  return (
+    slugs
+      .map((slug) => getQuoteBySlug(slug, fields))
+      // sort quotes by date in descending order
+      .sort((quote1, quote2) => (quote1.date > quote2.date ? -1 : 1))
+  )
+}
+
+export function getLatestQuote(fields: string[] = []) {
+  const slugs = getQuoteSlugs()
+  return getQuoteBySlug(slugs[0], fields)
 }
