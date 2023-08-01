@@ -14,7 +14,7 @@ type Props = {
 }
 
 export default function Index({ allPosts }: Props) {
-  const today = useMemo(() => (new Date()).toLocaleDateString(), []);
+  const today = useMemo(() => new Date().toLocaleDateString(), [])
 
   const heroPost = allPosts[0]
 
@@ -26,11 +26,7 @@ export default function Index({ allPosts }: Props) {
         </Head>
         <Container>
           <Intro />
-          {heroPost && (
-            <HeroPost
-              quote={heroPost.excerpt}
-            />
-          )}
+          {heroPost && <HeroPost quote={heroPost.excerpt} />}
           <span></span>
         </Container>
       </Layout>

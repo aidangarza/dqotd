@@ -8,9 +8,7 @@ type Props = {
   quote: string
 }
 
-const HeroPost = ({
-  quote,
-}: Props) => {
+const HeroPost = ({ quote }: Props) => {
   return (
     <section className="flex flex-col align-center max-w-md space-y-12">
       <PostNavigation />
