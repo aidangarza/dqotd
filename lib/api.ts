@@ -5,8 +5,10 @@ import matter from 'gray-matter'
 const quotesDirectory = join(process.cwd(), '_quotes')
 
 export function getQuoteSlugs() {
-  return fs.readdirSync(quotesDirectory).sort()
+  return fs.readdirSync(quotesDirectory).sort().reverse()
 }
+
+type Items = Record<string, string> & { slug?: number }
 
 export function getQuoteBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace(/\.md$/, '')
@@ -14,16 +16,12 @@ export function getQuoteBySlug(slug: string, fields: string[] = []) {
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
-  type Items = {
-    [key: string]: string
-  }
-
   const items: Items = {}
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
     if (field === 'slug') {
-      items[field] = realSlug
+      items[field] = +realSlug
     }
     if (field === 'content') {
       items[field] = content

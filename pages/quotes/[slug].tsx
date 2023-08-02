@@ -1,10 +1,10 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import Container from '../../components/container'
-import PostBody from '../../components/post-body'
+import QuoteBody from '../../components/quote-body'
 import Header from '../../components/header'
 import Layout from '../../components/layout'
-import { getQuoteBySlug, getAllQuotes } from '../../lib/api'
+import { getQuoteBySlug, getAllQuotes, getLatestQuote } from '../../lib/api'
 import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import { SITE_NAME } from '../../lib/constants'
@@ -13,13 +13,14 @@ import type QuoteType from '../../interfaces/quote'
 
 type Props = {
   post: QuoteType
-  morePosts: QuoteType[]
+  latestSlug: number
   preview?: boolean
 }
 
-export default function Post({ post, morePosts, preview }: Props) {
+export default function Post({ post, latestSlug, preview }: Props) {
   const router = useRouter()
-  const title = `${post.title} | ${SITE_NAME}`
+  const today = new Date().toLocaleDateString()
+  const title = `${SITE_NAME} | ${today}`
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
@@ -36,7 +37,11 @@ export default function Post({ post, morePosts, preview }: Props) {
                 <title>{title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
-              <PostBody content={post.content} />
+              <QuoteBody
+                slug={post.slug}
+                content={post.content}
+                latestSlug={latestSlug}
+              />
             </article>
           </>
         )}
@@ -52,14 +57,13 @@ type Params = {
 }
 
 export async function getStaticProps({ params }: Params) {
+  const latestQuote = getLatestQuote(['slug'])
   const post = getQuoteBySlug(params.slug, [
-    'title',
-    'date',
     'slug',
-    'author',
+    'releaseDate',
+    'speaker',
     'content',
     'ogImage',
-    'coverImage',
   ])
   const content = await markdownToHtml(post.content || '')
 
@@ -69,6 +73,7 @@ export async function getStaticProps({ params }: Params) {
         ...post,
         content,
       },
+      latestSlug: latestQuote.slug,
     },
   }
 }
@@ -80,7 +85,7 @@ export async function getStaticPaths() {
     paths: posts.map((post) => {
       return {
         params: {
-          slug: post.slug,
+          slug: `${post.slug}`,
         },
       }
     }),

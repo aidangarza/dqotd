@@ -1,11 +1,9 @@
 import Container from '../components/container'
-import Intro from '../components/intro'
 import Layout from '../components/layout'
 import { getLatestQuote } from '../lib/api'
 import Head from 'next/head'
 import Quote from '../interfaces/quote'
-import { useMemo } from 'react'
-import PostBody from '../components/post-body'
+import QuoteBody from '../components/quote-body'
 import { SITE_NAME } from '../lib/constants'
 import Header from '../components/header'
 
@@ -14,7 +12,7 @@ type Props = {
 }
 
 export default function Index({ latestQuote }: Props) {
-  const today = useMemo(() => new Date().toLocaleDateString(), [])
+  const today = new Date().toLocaleDateString()
 
   return (
     <>
@@ -24,7 +22,13 @@ export default function Index({ latestQuote }: Props) {
         </Head>
         <Container>
           <Header />
-          {latestQuote && <PostBody content={latestQuote.content} />}
+          {latestQuote && (
+            <QuoteBody
+              slug={latestQuote.slug}
+              content={latestQuote.content}
+              latestSlug={latestQuote.slug}
+            />
+          )}
         </Container>
       </Layout>
     </>

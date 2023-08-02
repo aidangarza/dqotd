@@ -1,36 +1,45 @@
-const PostNavigation = () => {
+import { PATH_QUOTES } from '../lib/constants'
+
+type Props = {
+  currentSlug: number
+  latestSlug: number
+}
+
+function getRandomSlug(currentSlug: number, latestSlug: number) {
+  const randomSlug = Math.ceil(Math.random() * latestSlug)
+
+  if (randomSlug === currentSlug) {
+    return getRandomSlug(currentSlug, latestSlug)
+  }
+
+  return randomSlug
+}
+
+const LinkButton = ({ slug, children }) => {
   return (
-    <div className="flex justify-around text-sm font-medium text-gray-500">
-      <a
-        href="#"
-        className="relative inline-flex items-center px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-      >
-        &#9198;
-      </a>
-      <a
-        href="#"
-        className="relative inline-flex items-center px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-      >
-        &#9194;
-      </a>
-      <a
-        href="#"
-        className="relative inline-flex items-center px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-      >
-        random
-      </a>
-      <a
-        href="#"
-        className="relative inline-flex items-center px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+    <a
+      href={`${PATH_QUOTES}/${slug}`}
+      className="relative inline-flex items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-md"
+    >
+      {children}
+    </a>
+  )
+}
+
+const PostNavigation = ({ currentSlug, latestSlug }: Props) => {
+  const randomSlug = getRandomSlug(currentSlug, latestSlug)
+
+  return (
+    <div className="flex justify-around text-md text-gray-400">
+      <LinkButton slug={1}>&#9198;</LinkButton>
+      <LinkButton slug={currentSlug - 1 || 1}>&#9194;</LinkButton>
+      <LinkButton slug={randomSlug}>random</LinkButton>
+      <LinkButton
+        slug={currentSlug + 1 < latestSlug ? currentSlug + 1 : latestSlug}
       >
         &#9193;
-      </a>
-      <a
-        href="#"
-        className="relative inline-flex items-center px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-      >
-        &#9197;
-      </a>
+      </LinkButton>
+      <LinkButton slug={latestSlug}>&#9197;</LinkButton>
     </div>
   )
 }

@@ -1,14 +1,14 @@
 import type Speaker from './speaker'
 
 type QuoteType = {
-  slug: string
+  slug: number
   speaker: Speaker
   excerpt: string
   ogImage: {
     url: string
   }
   content: string
-  releaseDate: Date
+  releaseDate: string
 }
 
 export default QuoteType
