@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-xl md:leading-loose;
+  @apply text-xl md:leading-loose bg-gray-200 dark:bg-gray-600 px-6 rounded-xl;
 }
 
 .markdown p,

@@ -18,6 +18,7 @@ function getRandomSlug(currentSlug: number, latestSlug: number) {
 const LinkButton = ({ slug, children }) => {
   return (
     <a
+      role="button"
       href={`${PATH_QUOTES}/${slug}`}
       className="relative inline-flex items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-md"
     >
@@ -30,7 +31,7 @@ const PostNavigation = ({ currentSlug, latestSlug }: Props) => {
   const randomSlug = getRandomSlug(currentSlug, latestSlug)
 
   return (
-    <div className="flex justify-around text-md text-gray-400">
+    <nav className="flex justify-around text-md text-gray-400">
       <LinkButton slug={1}>&#9198;</LinkButton>
       <LinkButton slug={currentSlug - 1 || 1}>&#9194;</LinkButton>
       <LinkButton slug={randomSlug}>random</LinkButton>
@@ -40,7 +41,7 @@ const PostNavigation = ({ currentSlug, latestSlug }: Props) => {
         &#9193;
       </LinkButton>
       <LinkButton slug={latestSlug}>&#9197;</LinkButton>
-    </div>
+    </nav>
   )
 }
 
