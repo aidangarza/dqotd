@@ -8,7 +8,7 @@ type Props = {
 
 const Header = ({ date }: Props) => {
   return (
-    <div className="mb-8 lg:mb-20 mt-8 space-y-3">
+    <div className="my-8 space-y-3">
       <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight">
         <Link href="/" className="hover:underline">
           {SITE_NAME}

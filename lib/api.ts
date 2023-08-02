@@ -5,14 +5,16 @@ import matter from 'gray-matter'
 const quotesDirectory = join(process.cwd(), '_quotes')
 
 export function getQuoteSlugs() {
-  return fs.readdirSync(quotesDirectory).sort().reverse()
+  return fs
+    .readdirSync(quotesDirectory)
+    .map((filename) => +filename.replace(/\.md$/, ''))
+    .sort((a, b) => b - a)
 }
 
 type Items = Record<string, string> & { slug?: number }
 
-export function getQuoteBySlug(slug: string, fields: string[] = []) {
-  const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = join(quotesDirectory, `${realSlug}.md`)
+export function getQuoteBySlug(slug: number, fields: string[] = []) {
+  const fullPath = join(quotesDirectory, `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
@@ -21,7 +23,7 @@ export function getQuoteBySlug(slug: string, fields: string[] = []) {
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
     if (field === 'slug') {
-      items[field] = +realSlug
+      items[field] = slug
     }
     if (field === 'content') {
       items[field] = content
@@ -37,12 +39,7 @@ export function getQuoteBySlug(slug: string, fields: string[] = []) {
 
 export function getAllQuotes(fields: string[] = []) {
   const slugs = getQuoteSlugs()
-  return (
-    slugs
-      .map((slug) => getQuoteBySlug(slug, fields))
-      // sort quotes by date in descending order
-      .sort((quote1, quote2) => (quote1.date > quote2.date ? -1 : 1))
-  )
+  return slugs.map((slug) => getQuoteBySlug(slug, fields))
 }
 
 export function getLatestQuote(fields: string[] = []) {

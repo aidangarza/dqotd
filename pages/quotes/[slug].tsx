@@ -55,7 +55,7 @@ type Params = {
 
 export async function getStaticProps({ params }: Params) {
   const latestQuote = getLatestQuote(['slug'])
-  const post = getQuoteBySlug(params.slug, [
+  const post = getQuoteBySlug(+params.slug, [
     'slug',
     'releaseDate',
     'speaker',
