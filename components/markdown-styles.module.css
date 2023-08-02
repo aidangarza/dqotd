@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-xl lg:leading-loose;
+  @apply text-xl md:leading-loose;
 }
 
 .markdown p,

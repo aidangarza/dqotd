@@ -6,32 +6,31 @@ import Quote from '../interfaces/quote'
 import QuoteBody from '../components/quote-body'
 import { SITE_NAME } from '../lib/constants'
 import Header from '../components/header'
+import formatDate from '../lib/formatDate'
 
 type Props = {
   latestQuote: Quote
 }
 
 export default function Index({ latestQuote }: Props) {
-  const today = new Date().toLocaleDateString()
+  const todayIso = new Date().toISOString()
 
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>{`${SITE_NAME} | ${today}`}</title>
-        </Head>
-        <Container>
-          <Header />
-          {latestQuote && (
-            <QuoteBody
-              slug={latestQuote.slug}
-              content={latestQuote.content}
-              latestSlug={latestQuote.slug}
-            />
-          )}
-        </Container>
-      </Layout>
-    </>
+    <Layout>
+      <Head>
+        <title>{`${SITE_NAME} | ${formatDate(todayIso)}`}</title>
+      </Head>
+      <Container>
+        <Header date={todayIso} />
+        {latestQuote && (
+          <QuoteBody
+            slug={latestQuote.slug}
+            content={latestQuote.content}
+            latestSlug={latestQuote.slug}
+          />
+        )}
+      </Container>
+    </Layout>
   )
 }
 

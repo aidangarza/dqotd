@@ -1,14 +1,24 @@
 import Link from 'next/link'
 import { SITE_NAME } from '../lib/constants'
+import DateFormatter from './date-formatter'
 
-const Header = () => {
+type Props = {
+  date: string
+}
+
+const Header = ({ date }: Props) => {
   return (
-    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-8 lg:mb-20 mt-8">
-      <Link href="/" className="hover:underline">
-        {SITE_NAME}
-      </Link>
-      .
-    </h2>
+    <div className="mb-8 lg:mb-20 mt-8 space-y-3">
+      <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight">
+        <Link href="/" className="hover:underline">
+          {SITE_NAME}
+        </Link>
+        .
+      </h2>
+      <h1 className="text-sm text-center">
+        Posted on <DateFormatter dateString={date} />
+      </h1>
+    </div>
   )
 }
 

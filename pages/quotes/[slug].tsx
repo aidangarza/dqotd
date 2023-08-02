@@ -10,6 +10,7 @@ import Head from 'next/head'
 import { SITE_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type QuoteType from '../../interfaces/quote'
+import formatDate from '../../lib/formatDate'
 
 type Props = {
   post: QuoteType
@@ -19,30 +20,27 @@ type Props = {
 
 export default function Post({ post, latestSlug, preview }: Props) {
   const router = useRouter()
-  const today = new Date().toLocaleDateString()
-  const title = `${SITE_NAME} | ${today}`
+  const title = `${SITE_NAME} | ${formatDate(post.releaseDate)}`
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
   return (
     <Layout preview={preview}>
       <Container>
-        <Header />
+        <Header date={post.releaseDate} />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
-              <Head>
-                <title>{title}</title>
-                <meta property="og:image" content={post.ogImage.url} />
-              </Head>
-              <QuoteBody
-                slug={post.slug}
-                content={post.content}
-                latestSlug={latestSlug}
-              />
-            </article>
+            <Head>
+              <title>{title}</title>
+              <meta property="og:image" content={post.ogImage.url} />
+            </Head>
+            <QuoteBody
+              slug={post.slug}
+              content={post.content}
+              latestSlug={latestSlug}
+            />
           </>
         )}
       </Container>
