@@ -1,6 +1,6 @@
 {
-  "name": "Next.js",
-  "short_name": "Next.js",
+  "name": "Disney Quote of the Day",
+  "short_name": "DQotD",
   "icons": [
     {
       "src": "/favicons/android-chrome-192x192.png",

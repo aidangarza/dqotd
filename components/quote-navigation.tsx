@@ -1,4 +1,5 @@
 import { PATH_QUOTES } from '../lib/constants'
+import Link from 'next/link'
 
 type Props = {
   currentSlug: number
@@ -17,17 +18,18 @@ function getRandomSlug(currentSlug: number, latestSlug: number) {
 
 const LinkButton = ({ slug, children }) => {
   return (
-    <a
+    <Link
       role="button"
-      href={`${PATH_QUOTES}/${slug}`}
+      as={`${PATH_QUOTES}/${slug}`}
+      href={`${PATH_QUOTES}/[slug]`}
       className="relative inline-flex items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-md"
     >
       {children}
-    </a>
+    </Link>
   )
 }
 
-const PostNavigation = ({ currentSlug, latestSlug }: Props) => {
+const QuoteNavigation = ({ currentSlug, latestSlug }: Props) => {
   const randomSlug = getRandomSlug(currentSlug, latestSlug)
 
   return (
@@ -45,4 +47,4 @@ const PostNavigation = ({ currentSlug, latestSlug }: Props) => {
   )
 }
 
-export default PostNavigation
+export default QuoteNavigation

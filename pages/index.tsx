@@ -20,7 +20,7 @@ export default function Index({ latestQuote }: Props) {
       <Head>
         <title>{`${SITE_NAME} | ${formatDate(todayIso)}`}</title>
       </Head>
-      <Container>
+      <Container fullScreen>
         <Header date={todayIso} />
         {latestQuote && (
           <QuoteBody

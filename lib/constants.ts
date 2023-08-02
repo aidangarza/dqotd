@@ -1,5 +1,7 @@
 export const SITE_NAME = 'Disney Quote of the Day'
 export const SITE_SHORTNAME = 'DQotD'
+export const SITE_URL = 'https://disneyquoteoftheday.com'
+export const SITE_SHORTURL = 'https://dqotd.me'
 export const PATH_QUOTES = '/quotes'
 export const EXAMPLE_PATH = 'blog-starter'
 export const CMS_NAME = 'Markdown'

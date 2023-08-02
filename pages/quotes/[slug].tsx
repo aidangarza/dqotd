@@ -5,7 +5,6 @@ import QuoteBody from '../../components/quote-body'
 import Header from '../../components/header'
 import Layout from '../../components/layout'
 import { getQuoteBySlug, getAllQuotes, getLatestQuote } from '../../lib/api'
-import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import { SITE_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
@@ -26,10 +25,10 @@ export default function Post({ post, latestSlug, preview }: Props) {
   }
   return (
     <Layout preview={preview}>
-      <Container>
+      <Container fullScreen>
         <Header date={post.releaseDate} />
         {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
+          <span>Loading…</span>
         ) : (
           <>
             <Head>
