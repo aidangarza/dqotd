@@ -7,7 +7,7 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
   return (
-    <div className="max-w-xl mx-auto space-y-12">
+    <div className="max-w-xl mx-auto space-y-12 flex-grow flex flex-col justify-center mb-20">
       <PostNavigation />
       <div
         className={markdownStyles['markdown']}
