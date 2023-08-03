@@ -10,6 +10,7 @@ import { SITE_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type QuoteType from '../../interfaces/quote'
 import formatDate from '../../lib/formatDate'
+import DateFormatter from '../../components/date-formatter'
 
 type Props = {
   post: QuoteType
@@ -26,15 +27,21 @@ export default function Post({ post, latestSlug, preview }: Props) {
   return (
     <Layout preview={preview}>
       <Container fullScreen>
-        <Header date={post.releaseDate} />
         {router.isFallback ? (
-          <span>Loading…</span>
+          <Header title="Loading…" />
         ) : (
           <>
             <Head>
               <title>{title}</title>
               <meta property="og:image" content={post.ogImage.url} />
             </Head>
+            <Header
+              title={
+                <>
+                  Posted on <DateFormatter dateString={post.releaseDate} />
+                </>
+              }
+            />
             <QuoteBody
               slug={post.slug}
               content={post.content}

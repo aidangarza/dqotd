@@ -1,6 +1,6 @@
 import markdownStyles from './markdown-styles.module.css'
 import QuoteNavigation from './quote-navigation'
-import { PATH_QUOTES, SITE_SHORTURL } from '../lib/constants'
+import { PATH_QUOTE, SITE_SHORTURL } from '../lib/constants'
 
 type Props = {
   slug: number
@@ -9,7 +9,7 @@ type Props = {
 }
 
 const QuoteBody = ({ slug, content, latestSlug }: Props) => {
-  const quoteUrl = `${SITE_SHORTURL}${PATH_QUOTES}/${slug}`
+  const quoteUrl = `${SITE_SHORTURL}${PATH_QUOTE(slug)}`
   const imageUrl = `${SITE_SHORTURL}/api/og-image/${slug}`
 
   return (

@@ -8,6 +8,7 @@ import { SITE_NAME } from '../lib/constants'
 import Header from '../components/header'
 import formatDate from '../lib/formatDate'
 import markdownToHtml from '../lib/markdownToHtml'
+import DateFormatter from '../components/date-formatter'
 
 type Props = {
   latestQuote: Quote
@@ -22,7 +23,13 @@ export default function Index({ latestQuote }: Props) {
         <title>{`${SITE_NAME} | ${formatDate(todayIso)}`}</title>
       </Head>
       <Container fullScreen>
-        <Header date={todayIso} />
+        <Header
+          title={
+            <>
+              Posted on <DateFormatter dateString={todayIso} />
+            </>
+          }
+        />
         {latestQuote && (
           <QuoteBody
             slug={latestQuote.slug}

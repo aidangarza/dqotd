@@ -1,4 +1,4 @@
-import { PATH_QUOTES } from '../lib/constants'
+import { PATH_QUOTE, ROUTE_QUOTE } from '../lib/constants'
 import Link from 'next/link'
 
 type Props = {
@@ -20,9 +20,9 @@ const LinkButton = ({ slug, children }) => {
   return (
     <Link
       role="button"
-      as={`${PATH_QUOTES}/${slug}`}
-      href={`${PATH_QUOTES}/[slug]`}
-      className="relative inline-flex items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-md"
+      as={PATH_QUOTE(slug)}
+      href={ROUTE_QUOTE}
+      className="relative inline-flex items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-md transition-colors"
     >
       {children}
     </Link>
