@@ -1,0 +1,23 @@
+.promotion {
+    @apply flex-grow-0 flex-shrink-0 my-3 max-w-xl;
+}
+
+.promotion a {
+    @apply flex items-center p-3 rounded-xl bg-acorns bg-opacity-5 hover:bg-opacity-10;
+}
+
+.promotion img {
+    @apply mr-3 h-12;
+}
+
+.promotion p {
+    @apply text-sm;
+}
+
+.promotion p span {
+    @apply text-gray-400;
+}
+
+.promotion:hover p span {
+    @apply underline;
+}

@@ -11,6 +11,7 @@ import markdownToHtml from '../../lib/markdownToHtml'
 import type QuoteType from '../../interfaces/quote'
 import formatDate from '../../lib/formatDate'
 import DateFormatter from '../../components/date-formatter'
+import Promotion from '../../components/promotion'
 
 type Props = {
   post: QuoteType
@@ -47,6 +48,7 @@ export default function Post({ post, latestSlug, preview }: Props) {
               content={post.content}
               latestSlug={latestSlug}
             />
+            <Promotion />
           </>
         )}
       </Container>

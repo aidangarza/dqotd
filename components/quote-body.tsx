@@ -10,7 +10,7 @@ type Props = {
 
 const QuoteBody = ({ slug, content, latestSlug }: Props) => {
   const quoteUrl = `${SITE_SHORTURL}${PATH_QUOTE(slug)}`
-  const imageUrl = `${SITE_SHORTURL}/api/og-image/${slug}`
+  const imageUrl = `${SITE_SHORTURL}/assets/quotes/${slug}.png`
 
   return (
     <article className="max-w-xl mx-auto md:space-y-6 flex-grow flex flex-col justify-center mb-6 md:mb-12">
@@ -20,17 +20,19 @@ const QuoteBody = ({ slug, content, latestSlug }: Props) => {
         dangerouslySetInnerHTML={{ __html: content }}
       />
       <QuoteNavigation currentSlug={slug} latestSlug={latestSlug} />
-      <div className="text-center text-gray-400 mt-6">
-        Permanent link to this quote:{' '}
-        <a className="underline" href={quoteUrl}>
-          {quoteUrl}
-        </a>
-      </div>
-      <div className="text-center text-gray-400 mt-3">
-        Image URL (for hotlinking/embedding):{' '}
-        <a className="underline" href={quoteUrl}>
-          {quoteUrl}
-        </a>
+      <div className="text-center text-gray-400 mt-6 space-y-3">
+        <div>
+          Permanent link to this quote:{' '}
+          <a className="underline" href={quoteUrl}>
+            {quoteUrl}
+          </a>
+        </div>
+        <div>
+          Image URL (for hotlinking/embedding):{' '}
+          <a className="underline" href={quoteUrl}>
+            {imageUrl}
+          </a>
+        </div>
       </div>
     </article>
   )

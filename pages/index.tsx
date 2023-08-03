@@ -9,6 +9,7 @@ import Header from '../components/header'
 import formatDate from '../lib/formatDate'
 import markdownToHtml from '../lib/markdownToHtml'
 import DateFormatter from '../components/date-formatter'
+import Promotion from '../components/promotion'
 
 type Props = {
   latestQuote: Quote
@@ -37,6 +38,7 @@ export default function Index({ latestQuote }: Props) {
             latestSlug={latestQuote.slug}
           />
         )}
+        <Promotion />
       </Container>
     </Layout>
   )
