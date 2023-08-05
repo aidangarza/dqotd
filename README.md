@@ -8,9 +8,11 @@ The quotes are stored in `/_quotes` as Markdown files with front matter support.
 
 To create the quotes it uses [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every quote is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
 
-## Demo
+## Production Site URLs
+* [dqotd.me](https://dqotd.me)
+* [dqotd.vercel.app](https://dqotd.vercel.app)
+* [disneyquoteoftheday.com](https://disneyquoteoftheday.com)
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
 
 ## Usage
 
