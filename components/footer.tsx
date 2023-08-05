@@ -18,12 +18,15 @@ const Footer = () => {
               .dev
             </a>
           </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
+          <div className="flex flex-col justify-center items-center space-y-1.5 lg:pl-4 lg:w-1/2">
+            <Link href={'/'} className="mx-3 font-bold hover:underline">
+              Home Page
+            </Link>
             <Link
               href={ROUTE_ARCHIVE}
               className="mx-3 font-bold hover:underline"
             >
-              View Archive
+              Archive
             </Link>
           </div>
         </div>
