@@ -16,18 +16,16 @@ type Props = {
 }
 
 export default function Index({ latestQuote }: Props) {
-  const todayIso = new Date().toISOString()
-
   return (
     <Layout>
       <Head>
-        <title>{`${SITE_NAME} | ${formatDate(todayIso)}`}</title>
+        <title>{`${SITE_NAME} | ${formatDate(latestQuote.releaseDate)}`}</title>
       </Head>
       <Container fullScreen>
         <Header
           title={
             <>
-              Posted on <DateFormatter dateString={todayIso} />
+              Posted on <DateFormatter dateString={latestQuote.releaseDate} />
             </>
           }
         />

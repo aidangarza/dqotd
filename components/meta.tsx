@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
+import { CMS_NAME, HOME_OG_IMAGE_PATH, SITE_SHORTURL } from '../lib/constants'
 
 const Meta = () => {
   return (
@@ -24,7 +24,7 @@ const Meta = () => {
       <link rel="manifest" href="/favicon/site.webmanifest" />
       <link
         rel="mask-icon"
-        href="/favicon/safari-pinned-tab.svg"
+        href="/favicon/safari-pinned-tab.png"
         color="#000000"
       />
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
@@ -34,9 +34,9 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content={`Daily quotes from the great Walt Disney.`}
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:image" content={SITE_SHORTURL + HOME_OG_IMAGE_PATH} />
     </Head>
   )
 }

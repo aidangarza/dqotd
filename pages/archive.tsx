@@ -1,6 +1,6 @@
 import Container from '../components/container'
 import Layout from '../components/layout'
-import { getAllQuotes, getLatestQuote } from '../lib/api'
+import { getActiveQuotes, getAllQuotes, getLatestQuote } from '../lib/api'
 import Head from 'next/head'
 import Quote from '../interfaces/quote'
 import { PATH_QUOTE, ROUTE_QUOTE, SITE_NAME } from '../lib/constants'
@@ -23,11 +23,7 @@ export default function Index({ allQuotes = [] }: Props) {
         <ul className="leading-loose">
           {allQuotes.map((quote) => (
             <li>
-              <Link
-                as={PATH_QUOTE(quote.slug)}
-                href={ROUTE_QUOTE}
-                className="hover:underline"
-              >
+              <Link href={PATH_QUOTE(quote.slug)} className="hover:underline">
                 <b>
                   <DateFormatter dateString={quote.releaseDate} />:{' '}
                 </b>
@@ -42,7 +38,7 @@ export default function Index({ allQuotes = [] }: Props) {
 }
 
 export const getStaticProps = async () => {
-  const allQuotes = getAllQuotes(['slug', 'excerpt', 'releaseDate'])
+  const allQuotes = getActiveQuotes(['slug', 'excerpt', 'releaseDate'])
 
   return {
     props: {

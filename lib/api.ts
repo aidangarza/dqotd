@@ -42,7 +42,14 @@ export function getAllQuotes(fields: string[] = []) {
   return slugs.map((slug) => getQuoteBySlug(slug, fields))
 }
 
+export function getActiveQuotes(fields: string[] = []) {
+  const quotes = getAllQuotes([...fields, 'releaseDate'])
+  const today = new Date()
+  return quotes.filter((quote) => new Date(quote.releaseDate) <= today)
+}
+
 export function getLatestQuote(fields: string[] = []) {
-  const slugs = getQuoteSlugs()
-  return getQuoteBySlug(slugs[0], fields)
+  const activeQuotes = getActiveQuotes(fields)
+  console.log(activeQuotes)
+  return activeQuotes[0]
 }
