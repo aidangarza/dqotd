@@ -16,7 +16,7 @@ export default function Index({ allQuotes = [] }: Props) {
   return (
     <Layout>
       <Head>
-        <title>{`${SITE_NAME} | Archive}`}</title>
+        <title>{`${SITE_NAME} | Archive`}</title>
       </Head>
       <Container fullScreen>
         <Header title="Archive" />
