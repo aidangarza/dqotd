@@ -13,7 +13,7 @@ if [ -z "$1" ]; then
 fi
 
 # Initialize index counter
-index=1
+index=0
 
 # Check if starting index is provided
 if [ ! -z "$2" ]; then
@@ -28,18 +28,24 @@ while IFS=, read -r excerpt speaker_name speaker_picture ogImage_url releaseDate
     # Increment index counter
     ((index++))
 
+    # Remove commas from excerpt
+    cleaned_excerpt="${excerpt//,/}"
+
+    # Remove double quotes from content
+    cleaned_content="${content//\"/}"
+
     # Generate markdown content
     markdown_content="---
-excerpt: '$excerpt'
+excerpt: \"$cleaned_excerpt\"
 speaker:
-  name: $speaker_name
+  name: '$speaker_name'
   picture: '$speaker_picture'
 ogImage:
   url: '$ogImage_url'
 releaseDate: '$releaseDate'
 ---
 
-'$content'"
+$cleaned_content"
 
     # Create markdown file
     filename="${output_dir}/${index}.md"
