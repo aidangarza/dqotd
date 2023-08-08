@@ -1,5 +1,5 @@
 import Container from './container'
-import { EXAMPLE_PATH, ROUTE_ARCHIVE } from '../lib/constants'
+import { EXAMPLE_PATH, PATH_ARCHIVE } from '../lib/constants'
 import Link from 'next/link'
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
               Home Page
             </Link>
             <Link
-              href={ROUTE_ARCHIVE}
+              href={PATH_ARCHIVE}
               className="mx-3 font-bold hover:underline"
             >
               Archive

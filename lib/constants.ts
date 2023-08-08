@@ -6,8 +6,7 @@ export const SITE_SHORTURL = 'https://dqotd.me'
 
 // Routing
 export const PATH_QUOTE = (slug: number) => `/quotes/${slug}`
-export const ROUTE_QUOTE = '/quotes/[slug]'
-export const ROUTE_ARCHIVE = '/archive'
+export const PATH_ARCHIVE = '/archive'
 
 // Social
 export const EXAMPLE_PATH = 'blog-starter'
@@ -16,4 +15,4 @@ export const HOME_OG_IMAGE_PATH =
   '/assets/images/Walt_Disney_1946_cropped_512x512.png'
 
 // Analytics
-export const GA4_KEY = 'G-78GQW5ELH9'
+export const GA4_KEY = process.env.GA4_KEY ?? ''

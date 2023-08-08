@@ -1,4 +1,4 @@
-import { PATH_QUOTE, ROUTE_QUOTE } from '../lib/constants'
+import { PATH_QUOTE } from '../lib/constants'
 import Link from 'next/link'
 
 type Props = {
