@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Check if output directory for quotes exists, if not, create it
-output_dir="../_quotes"
-if [ ! -d "$output_dir" ]; then
-    mkdir "$output_dir"
-fi
-
 # Check if output directory for SVG files exists, if not, create it
 svg_output_dir="../public/quotes"
 if [ ! -d "$svg_output_dir" ]; then
@@ -37,30 +31,6 @@ while IFS=, read -r excerpt speaker_name speaker_picture ogImage_url releaseDate
     # Generate random color
     color=$(./random_color.sh)
 
-    # Remove commas from excerpt
-    cleaned_excerpt="${excerpt//,/}"
-
-    # Remove double quotes from content
-    cleaned_content="${content//\"/}"
-
-    # Generate markdown content
-    markdown_content="---
-excerpt: \"$cleaned_excerpt\"
-speaker:
-  name: '$speaker_name'
-  picture: '$speaker_picture'
-ogImage:
-  url: '$ogImage_url'
-color: '$color'
-releaseDate: '$releaseDate'
----
-$cleaned_content"
-
-    # Create markdown file
-    filename="${output_dir}/${index}.md"
-    echo "$markdown_content" > "$filename"
-    echo "Created $filename"
-
     # Call make_svg_content.sh script to generate SVG content
     svg_content=$(./make_svg_content.sh "$content" "$speaker_name" "$speaker_picture" "$color")
 
@@ -70,4 +40,4 @@ $cleaned_content"
     echo "Created $svg_filename"
 done < "$input_csv"
 
-echo "Markdown files created in $output_dir directory."
+echo "Svg files created in $svg_output_dir directory."
