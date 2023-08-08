@@ -83,7 +83,7 @@
     <clipPath id="circleMask">
       <circle cx="926" cy="1554" r="50" />
     </clipPath>
-    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1504" width="100" height="100" clip-path="url(#circleMask)" />
+    <image href="./assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1504" width="100" height="100" clip-path="url(#circleMask)" />
     <text x="828" y="1570" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
       - Walt Disney
     </text>
