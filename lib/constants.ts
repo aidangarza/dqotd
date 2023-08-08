@@ -5,6 +5,7 @@ export const SITE_URL = 'https://disneyquoteoftheday.com'
 export const SITE_SHORTURL = 'https://dqotd.me'
 
 // Routing
+export const PATH_HOME = '/'
 export const PATH_QUOTE = (slug: number) => `/quotes/${slug}`
 export const PATH_ARCHIVE = '/archive'
 

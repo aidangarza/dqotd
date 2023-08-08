@@ -46,6 +46,7 @@ export default function Post({ post, latestSlug, preview }: Props) {
             <QuoteBody
               slug={post.slug}
               content={post.content}
+              speaker={post.speaker}
               latestSlug={latestSlug}
             />
             <Promotion />

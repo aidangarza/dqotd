@@ -6,7 +6,7 @@ type Props = {
 const Container = ({ children, fullScreen = false }: Props) => {
   return (
     <div
-      className={`container mx-auto px-5 flex-col flex items-center ${
+      className={`container mx-auto px-2 md:px-5 flex-col flex items-center ${
         fullScreen ? 'min-h-screen' : ''
       }`}
     >
