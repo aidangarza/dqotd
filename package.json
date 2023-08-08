@@ -5,7 +5,9 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc",
-    "prettier": "prettier --write '**/*.{ts,tsx,js,jsx,css,html}'"
+    "prettier": "prettier --write '**/*.{ts,tsx,js,jsx,css,html}'",
+    "generate_quotes": "./bin/generate_quotes.sh",
+    "generate_images": "./bin/generate_pngs.sh"
   },
   "dependencies": {
     "classnames": "^2.3.1",
