@@ -24,7 +24,8 @@ The blog should be up and running on [http://localhost:3000](http://localhost:30
 
 1. `brew install librsvg`
 2. Create a .CSV file with the shape (excerpt, speaker_name, speaker_picture, ogImage_url, releaseDate, content) and NO HEADER ROW
-3. `npm run generate-quotes "PATH/TO/step-2.csv"`
+3. `npm run generate-quotes "PATH/TO/step-2.csv"` # This will generate the .md files in "_quotes" and the .svg images in "public/quotes"
+4. `npm run generate-images` # This will generate the .png images in "public/quotes"
 
 This will generate a .md file in "_quotes" for each row in the .CSV file, as well as a .svg image and .png image for each quote in the "public/quotes" folder.
 

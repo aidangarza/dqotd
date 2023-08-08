@@ -7,7 +7,7 @@ svg_directory="../public/quotes"
 for svg_file in "$svg_directory"/*.svg; do
   if [ -f "$svg_file" ]; then
     base_name=$(basename "$svg_file")
-    png_file="svg_directory/${base_name%.svg}.png"
+    png_file="$svg_directory/${base_name%.svg}.png"
 
     # Convert SVG to PNG using rsvg-convert
     rsvg-convert -w 1024 "$svg_file" -o "$png_file"

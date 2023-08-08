@@ -68,6 +68,11 @@ $cleaned_content"
     svg_filename="${svg_output_dir}/${index}.svg"
     echo "$svg_content" > "$svg_filename"
     echo "Created $svg_filename"
+
+    # Create PNG file
+    png_filename="${svg_output_dir}/${index}.png"
+    rsvg-convert -w 1024 "$svg_filename" -o "$png_filename"
+    echo "Created $png_filename"
 done < "$input_csv"
 
 echo "Markdown files created in $output_dir directory."
