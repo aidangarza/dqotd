@@ -50,7 +50,7 @@ $(echo "$wrapped_quote" | awk -v QUOTE_FONT_SIZE="$QUOTE_FONT_SIZE" -v CONTRAST_
     <clipPath id="circleMask">
       <circle cx="$((WIDTH - PADDING - PHOTO_SIZE / 2))" cy="$((height - PADDING - PHOTO_SIZE / 2))" r="$((PHOTO_SIZE / 2))" />
     </clipPath>
-    <image href="https://$SITE_DOMAIN$picture" x="$((WIDTH - PADDING - PHOTO_SIZE))" y="$((height - PADDING - PHOTO_SIZE))" width="$PHOTO_SIZE" height="$PHOTO_SIZE" clip-path="url(#circleMask)" />
+    <image href=".$picture" x="$((WIDTH - PADDING - PHOTO_SIZE))" y="$((height - PADDING - PHOTO_SIZE))" width="$PHOTO_SIZE" height="$PHOTO_SIZE" clip-path="url(#circleMask)" />
     <text x="$((WIDTH - PADDING - PHOTO_SIZE - PADDING))" y="$((height - PADDING - PHOTO_SIZE / 2 + NAME_FONT_SIZE / 2))" font-size="$NAME_FONT_SIZE" text-anchor="end" font-family="sans-serif" fill="$contrast_color">
       - $name
     </text>
