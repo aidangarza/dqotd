@@ -50,6 +50,5 @@ export function getActiveQuotes(fields: string[] = []) {
 
 export function getLatestQuote(fields: string[] = []) {
   const activeQuotes = getActiveQuotes(fields)
-  console.log(activeQuotes)
   return activeQuotes[0]
 }
