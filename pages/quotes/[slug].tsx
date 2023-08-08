@@ -6,7 +6,7 @@ import Header from '../../components/header'
 import Layout from '../../components/layout'
 import { getQuoteBySlug, getAllQuotes, getLatestQuote } from '../../lib/api'
 import Head from 'next/head'
-import { SITE_NAME } from '../../lib/constants'
+import { PATH_QUOTE_IMAGE, SITE_NAME, SITE_SHORTURL } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type QuoteType from '../../interfaces/quote'
 import formatDate from '../../lib/formatDate'
@@ -34,7 +34,18 @@ export default function Post({ post, latestSlug, preview }: Props) {
           <>
             <Head>
               <title>{title}</title>
-              <meta property="og:image" content={post.ogImage.url} />
+              <meta
+                property="og:image"
+                content={SITE_SHORTURL + PATH_QUOTE_IMAGE(post.slug)}
+              />
+              <meta
+                name="description"
+                content={`A quote from ${
+                  post.speaker.name
+                }. Posted on ${formatDate(post.releaseDate)}. "${
+                  post.excerpt
+                }..."`}
+              />
             </Head>
             <Header
               title={

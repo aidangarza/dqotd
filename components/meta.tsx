@@ -27,11 +27,6 @@ const Meta = () => {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
-        name="description"
-        content={`Daily quotes from the great Walt Disney.`}
-      />
-      <meta property="og:image" content={SITE_SHORTURL + HOME_OG_IMAGE_PATH} />
     </Head>
   )
 }

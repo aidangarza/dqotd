@@ -8,7 +8,7 @@ export const SITE_SHORTURL = 'https://dqotd.me'
 // Routing
 export const PATH_HOME = '/'
 export const PATH_QUOTE = (slug: number) => `/quotes/${slug}`
-export const PATH_QUOTE_IMAGE = (slug: number) => `/quotes/${slug}.svg`
+export const PATH_QUOTE_IMAGE = (slug: number) => `/quotes/${slug}.png`
 export const PATH_ARCHIVE = '/archive'
 
 // Social

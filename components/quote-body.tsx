@@ -21,10 +21,10 @@ const QuoteBody = ({ slug, content, excerpt, speaker, latestSlug }: Props) => {
     <article className="w-full max-w-xl mx-auto space-y-1 md:space-y-6 flex-grow flex flex-col justify-center mb-6 md:mb-12">
       <QuoteNavigation currentSlug={slug} latestSlug={latestSlug} />
 
-      <object
-        data={PATH_QUOTE_IMAGE(slug)}
-        type="image/svg+xml"
+      <img
+        src={PATH_QUOTE_IMAGE(slug)}
         className="w-full"
+        alt={`Quote by ${speaker.name}`}
       />
 
       <div className="sr-only">
