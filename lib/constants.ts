@@ -15,4 +15,4 @@ export const HOME_OG_IMAGE_PATH =
   '/assets/images/Walt_Disney_1946_cropped_512x512.png'
 
 // Analytics
-export const GA4_KEY = process.env.GA4_KEY ?? ''
+export const GA4_KEY = process.env.NEXT_GA4_KEY ?? ''
