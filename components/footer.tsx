@@ -31,7 +31,11 @@ const Footer = () => {
           </h3>
           <div className="flex flex-col justify-center items-center space-y-1.5 lg:pl-4 lg:w-1/2">
             {LINKS.map(({ href, label }) => (
-              <Link href={href} className="mx-3 font-bold hover:underline">
+              <Link
+                key={href}
+                href={href}
+                className="mx-3 font-bold hover:underline"
+              >
                 {label}
               </Link>
             ))}
