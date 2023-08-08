@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 948" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#cd54dd" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#000000" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="852" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      "But now, looking back, I have 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      satisfaction, even pleasure, in tracing 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      the effects those newspaper-delivery 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      days had on my mature life. Now I can 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      appreciate the self-reliance, 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      self-discipline, and self wisdom gained 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      from those responsibilities. The sense 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      of responsibility -yes, this I believe 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      is the most valuable thing a boy can 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      carry along into later life from his 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      first job."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="850" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="800" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="866" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="924" x="512" text-anchor="middle" fill="#000000" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

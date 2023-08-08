@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1268" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#6373f2" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1172" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "Mickey Mouse is, to me, a symbol of 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      independence. He was a means to an end. 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      He popped out of my mind onto a drawing 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      pad twenty years ago on a train ride 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      from Manhattan to Hollywood at a time 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      when business fortunes of my brother 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      Roy and myself were at lowest ebb and 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      disaster seemed right around the 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      corner. Born of necessity, the little 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      fellow literally freed us of immediate 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      worry. He provided the means for 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      expanding our organization to its 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      present dimensions and for extending 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      the medium of cartoon animation toward 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      new entertainment levels. He spelled 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      production liberation for us."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1170" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1120" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1186" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1244" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

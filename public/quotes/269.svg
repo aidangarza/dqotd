@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1268" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#3d9ba0" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1172" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "A family picture is one the kids can 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      take their parents to see and not be 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      embarrassed. | think that by producing 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      family films we reach the audience 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      which has been dormant at the box 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      office for a long time. I don't like 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      downbeat pictures and I cannot believe 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      that the average family does either. 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      Personally, when I go to the theater I 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      don't want to come out depressed. 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      That's why we make the kind of films so 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      many label 'family type.' We avoid 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      messages and have opened up new doors 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      and broadened the field for ourselves 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      by producing human stories, with comedy 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      and drama mixed."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1170" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1120" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1186" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1244" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

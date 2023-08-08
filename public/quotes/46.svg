@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 628" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#810dc4" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="532" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "I first saw the site for Disneyland 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      back in 1953. In those days it was all 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      flat land - no rivers, no mountains, no 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      castles or rocket ships- -just orange 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      groves, and a few acres of walnut 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      trees."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="530" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="480" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="546" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="604" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

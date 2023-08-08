@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 884" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#5b2dce" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="788" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "We think of the family audience. 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      Mickey Mouse would not have been the 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      success he was were it not for the 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      broad appeal. We are not playing just 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      for kids. If you took your kids to the 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      movies and left them there to be picked 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      up later and did not go in yourself, 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      I'd feel unhappy. After all, if you are 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      aiming at the kids, what age would you 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      aim at?"
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="786" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="736" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="802" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="860" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

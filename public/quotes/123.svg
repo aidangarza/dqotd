@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1076" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#07bc62" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="980" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "The immediate need for education and 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      practice in using our natural resources 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      of soil, forest, water, wildlife, and 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      areas of inspirational beauty to the 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      best advantage of all, for this 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      generation and others to come, is again 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      apparent to every observant citizen. My 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      interest in these problems has been 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      sharpened by our motion-picture 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      production of wildlife subiects and the 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      relation of animal life to all the 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      other conservation issues during the 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      past few years."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="978" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="928" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="994" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1052" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

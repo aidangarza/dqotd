@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 948" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#aff243" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#000000" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="852" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      "Now, when we opened Disneyland, outer 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      space was Buck Rogers. I did put in a 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      trip to the moon. And I got Werner von 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      Braun to help me plan the thing. And, 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      of course, we were going up to the moon 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      long before Sputnik. And since then has 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      come Sputnik and then has come our 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      great program in outer space. So I had 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      to tear down my Tomorrowland that I 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      built eleven years ago and rebuild it 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      to keep pace."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="850" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="800" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="866" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="924" x="512" text-anchor="middle" fill="#000000" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

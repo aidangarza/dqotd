@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1844" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#b2cc3f" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#000000" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1748" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      "[Disneyland is] something that will 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      never be finished. Something that I can 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      keep developing, keep plussing and 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      adding to. It's alive. It will be a 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      live, breathing thing that will need 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      change. A picture is a thing, once you 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      wrap it up and turn it over to 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      Technicolor you're through. Snow White 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      is a dead issue with me. A live picture 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      I just finished, the one I wrapped up a 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      few weeks ago, it's gone, I can't touch 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      it. There're things in it t don't like; 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      I can't do anything about it. I wanted 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      something alive, something that could 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      grow, something I could keep plussing 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      with ideas; the park is that. Not only 
+    </text>
+    <text x="0" y="1024" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      can I add things, but even the trees 
+    </text>
+    <text x="0" y="1088" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      will keep growing. The things will get 
+    </text>
+    <text x="0" y="1152" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      more beautiful+ each year. And as I 
+    </text>
+    <text x="0" y="1216" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      find out what the public likes and when 
+    </text>
+    <text x="0" y="1280" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      a picture's finished and I put it out, 
+    </text>
+    <text x="0" y="1344" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      I find out what the public doesn't 
+    </text>
+    <text x="0" y="1408" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      like. I can't change it, it's finished, 
+    </text>
+    <text x="0" y="1472" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      but I can change the park, because it's 
+    </text>
+    <text x="0" y="1536" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      alive. That is why I wanted that park."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1746" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1696" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1762" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1820" x="512" text-anchor="middle" fill="#000000" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

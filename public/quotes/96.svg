@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1652" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#355da3" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1556" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "Why do animals dominate animated 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      cartoons? Because their reaction to any 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      kind of stimulus is expressed 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      physically. Often the entire body comes 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      into play. Take a joyful dog. His tail 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      wags, his torso wiggles, his ears flap. 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      He may greet you by jumping on your lap 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      or by making the circuit of the room, 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      not missing a chair or a divan. He 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      keeps barking, and that's a form of 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      physical expression, too; he stretches 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      his big mouth. But how does a human 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      being react to a stimulus? He's lost 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      the sense of play he once had and he 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      inhibits physical expression. He is the 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      victim of a civilization whose ideal is 
+    </text>
+    <text x="0" y="1024" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      the unbotherable, poker-faced man and 
+    </text>
+    <text x="0" y="1088" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      the attractive, unruffled woman. Even 
+    </text>
+    <text x="0" y="1152" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      the gestures get to be calculated. They 
+    </text>
+    <text x="0" y="1216" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      call it poise. The spontaneity of the 
+    </text>
+    <text x="0" y="1280" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      animal--you find it in small children, 
+    </text>
+    <text x="0" y="1344" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      but it's gradually trained out of them."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1554" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1504" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1570" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1628" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

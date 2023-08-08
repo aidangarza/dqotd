@@ -33,6 +33,7 @@ export default function Index({ latestQuote }: Props) {
           <QuoteBody
             slug={latestQuote.slug}
             content={latestQuote.content}
+            excerpt={latestQuote.excerpt}
             speaker={latestQuote.speaker}
             latestSlug={latestQuote.slug}
           />
@@ -44,7 +45,7 @@ export default function Index({ latestQuote }: Props) {
 }
 
 export const getStaticProps = async () => {
-  const latestQuote = getLatestQuote(['slug', 'content', 'speaker'])
+  const latestQuote = getLatestQuote(['slug', 'content', 'excerpt', 'speaker'])
 
   const content = await markdownToHtml(latestQuote.content || '')
 

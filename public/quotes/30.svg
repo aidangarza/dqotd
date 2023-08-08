@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1652" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#99dd58" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#000000" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1556" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      "After a long concentration on 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      live-action and cartoon films, we 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      decided to try something that would 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      employ about every trick we had learned 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      in the making of films. We would 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      combine cartoon and live action in an 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      enormous fantasy Mary Poppins. And what 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      a far cry that was from Snow White. As 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      the original Mary Poppins budget of 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      five million dollars continued to grow, 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      I never saw a sad face around the 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      entire studio. And this made me 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      nervous. I knew the picture would have 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      to gross ten million dollars for us to 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      break even. But still there was no 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      negative head-shaking. No prophets of 
+    </text>
+    <text x="0" y="1024" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      doom. Even Roy was happy. He didn't 
+    </text>
+    <text x="0" y="1088" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      even ask me to show the finished 
+    </text>
+    <text x="0" y="1152" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      picture to a banker. The horrible 
+    </text>
+    <text x="0" y="1216" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      thought struck me suppose the staff had 
+    </text>
+    <text x="0" y="1280" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      finally conceded that I knew what I was 
+    </text>
+    <text x="0" y="1344" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      doing."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1554" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1504" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1570" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1628" x="512" text-anchor="middle" fill="#000000" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

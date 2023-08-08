@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1204" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#91d622" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#000000" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1108" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      "I actually started to plan [Snow 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      White] about 1935. And I fooled around 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      with it trying to get a hold of a story 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      and things for a couple of years and 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      finally it began to jell... . then I 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      went to work on it and I finished in 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      the fall of 1937. I didn't know what I 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      had or what would happen or anything. 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      We had the family fortune... we had 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      everything wrapped up in Snow White. In 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      fact the bankers, I think, were losing 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      more sleep than I was. And fortunately, 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      though, when we put it in and premiered 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      it and everything else, why everything 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      was fine and the bankers were happy."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1106" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1056" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1122" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1180" x="512" text-anchor="middle" fill="#000000" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

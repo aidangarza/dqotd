@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1204" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#822bce" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1108" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "The screen has too long been confined 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      to what we can see and hear, what the 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      camera can show... things which reveal 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      not the half of a man's life and his 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      most intense interests, with live 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      actors attempting to interpret the 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      unseen- the emotions, the impulses of 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      the mind. And doing it, we must admit, 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      rather clumsily most of the time. 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      Relying largely on words often almost 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      meaningless. Now, with the animated 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      cartoon, we have another perfected 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      tool- another scope for getting at the 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      inner nature of things and projecting 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      them for the eye and the ear."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1106" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1056" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1122" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1180" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

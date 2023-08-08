@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1780" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#e0119b" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1684" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "The idea for [Disneyland] came about 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      when my daughters were very young and 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      Saturday was always Daddy's day with 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      the two daughters. So we'd start out 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      and try to go someplace, you know, 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      different things, and I'd take them to 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      the merry-go-round and I took them 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      different places and as I'd sit while 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      they rode the merry-go-round and did 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      all these things sit on a bench, you 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      know, eating peanuts- I felt that there 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      should be something built where the 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      parents and the children could have fun 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      together. So that's how Disneyland 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      started. Well, it took many years... it 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      was a period of maybe fifteen years 
+    </text>
+    <text x="0" y="1024" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      developing. I started with many ideas, 
+    </text>
+    <text x="0" y="1088" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      threw them away, started all over 
+    </text>
+    <text x="0" y="1152" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      again. And eventually it evolved into 
+    </text>
+    <text x="0" y="1216" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      what you see today at Disneyland. But 
+    </text>
+    <text x="0" y="1280" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      it all started from a daddy with two 
+    </text>
+    <text x="0" y="1344" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      daughters wondering where he could take 
+    </text>
+    <text x="0" y="1408" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      them where he could have a little fun 
+    </text>
+    <text x="0" y="1472" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      with them, too."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1682" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1632" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1698" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1756" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

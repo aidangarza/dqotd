@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1716" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#7654ff" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#FFFFFF" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1620" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      "Everyone has been remarkably 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      influenced by a book, or books. In my 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      case it was a book on cartoon 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      animation. I discovered it in the 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      Kansas City Library at the time I was 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      preparing to make motion-picture 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      animation my life's work. The book told 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      me all I needed to know as a beginner 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      all about the arts and the mechanics of 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      making drawings that move on the 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      theater screen. From the basic 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      information I could go on to develop my 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      own way of movie storytelling. Finding 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      that book was one of the most important 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      and useful events in my life. It 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      happened at just the right time. The 
+    </text>
+    <text x="0" y="1024" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      right time for reading a story or an 
+    </text>
+    <text x="0" y="1088" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      article or a book is important. By 
+    </text>
+    <text x="0" y="1152" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      trying too hard to read a book that, 
+    </text>
+    <text x="0" y="1216" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      for our age and understanding, is 
+    </text>
+    <text x="0" y="1280" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      beyond us, we may tire of it. Then, 
+    </text>
+    <text x="0" y="1344" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      even after, we'll avoid it and deny 
+    </text>
+    <text x="0" y="1408" font-size="48" fill="#FFFFFF" font-family="sans-serif" text-anchor="start">
+      ourselves the delights it holds."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1618" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1568" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1634" font-size="32" text-anchor="end" font-family="sans-serif" fill="#FFFFFF">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1692" x="512" text-anchor="middle" fill="#FFFFFF" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

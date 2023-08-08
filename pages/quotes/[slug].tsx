@@ -46,6 +46,7 @@ export default function Post({ post, latestSlug, preview }: Props) {
             <QuoteBody
               slug={post.slug}
               content={post.content}
+              excerpt={post.excerpt}
               speaker={post.speaker}
               latestSlug={latestSlug}
             />
@@ -67,11 +68,13 @@ export async function getStaticProps({ params }: Params) {
   const latestQuote = getLatestQuote(['slug'])
   const post = getQuoteBySlug(+params.slug, [
     'slug',
-    'releaseDate',
-    'speaker',
     'content',
+    'excerpt',
     'ogImage',
+    'speaker',
+    'releaseDate',
   ])
+
   const content = await markdownToHtml(post.content || '')
 
   return {

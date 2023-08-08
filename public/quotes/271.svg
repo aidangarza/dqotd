@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1332" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#5ce0d9" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#000000" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1236" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      "Literary versions of old fairy tales 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      are usually thin and briefly told. They 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      must be expanded and embellished to 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      meet the requirements of theater 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      playing time, and the common enjoyment 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      of all members of movie-going families. 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      The screen version must perceive and 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      emphasize the basic moral intent and 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      the values upon which every great 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      persistent fairy tale is found. To 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      these ends I have devoted my own best 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      efforts and the talents of my 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      organization, in full realization of 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      our responsibility as a mass 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      entertainer and especially our 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      responsibility to our vast audience of 
+    </text>
+    <text x="0" y="1024" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      children around the world."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1234" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1184" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1250" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1308" x="512" text-anchor="middle" fill="#000000" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

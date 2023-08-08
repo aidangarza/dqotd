@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 1780" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#3e9cad" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#000000" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="1684" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      "The idea for Disneyland lay dormant 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      for several years. It came along when I 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      was taking my kids around to these 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      kiddie parks... I took them to zoos, I 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      took them everywhere, and while they 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      were on the merry-go-round riding forty 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      times or something, I'd be sitting 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      there trying to figure what I could do. 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      When I built the studio I thought we 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      ought to have a three-dimension thing 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      that people could actually come and 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      visit they can't visit our studio 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      because the rooms are small. So I had a 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      little dream for Disneyland adjoining 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      the studio, but I couldn't get anybody 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      to go in with me because we were going 
+    </text>
+    <text x="0" y="1024" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      through this depression. And whenever 
+    </text>
+    <text x="0" y="1088" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      I'd go down and talk to my brother 
+    </text>
+    <text x="0" y="1152" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      about it, why he'd always suddenly get 
+    </text>
+    <text x="0" y="1216" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      busy with some figures, so, I mean, I 
+    </text>
+    <text x="0" y="1280" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      didn't dare bring it up. But I kept 
+    </text>
+    <text x="0" y="1344" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      working on it and I worked on it with 
+    </text>
+    <text x="0" y="1408" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      my own money. Not the studio's money, 
+    </text>
+    <text x="0" y="1472" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      but my own money."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="1682" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1632" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="1698" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="1756" x="512" text-anchor="middle" fill="#000000" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>

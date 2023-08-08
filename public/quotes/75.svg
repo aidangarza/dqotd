@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1024 2100" fill="none">
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" rx="12" fill="#12eded" />
+
+  <!-- Quote Marks -->
+  <text x="24" y="152" font-size="200" fill="#000000" fill-opacity="0.1" font-family="Times New Roman">
+    <tspan font-weight="bold" id="tspan1874">“</tspan>
+    <tspan x="900" y="2004" font-weight="bold" id="tspan1874">”</tspan>
+  </text>
+
+  <!-- Quote Text -->
+  <g transform="translate(48, 112)">
+    <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      "The idea of Disneyland is a simple 
+    </text>
+    <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      one. It will be a place for people to 
+    </text>
+    <text x="0" y="128" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      find happiness and knowledge. It will 
+    </text>
+    <text x="0" y="192" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      be a place for parents and children to 
+    </text>
+    <text x="0" y="256" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      share pleasant times in one another's 
+    </text>
+    <text x="0" y="320" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      company; a place for teachers and 
+    </text>
+    <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      pupils to discover greater + ways of 
+    </text>
+    <text x="0" y="448" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      understanding and education. Here the 
+    </text>
+    <text x="0" y="512" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      older generation can recapture the 
+    </text>
+    <text x="0" y="576" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      nostalgia of days gone by, and the 
+    </text>
+    <text x="0" y="640" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      younger generation can savor the 
+    </text>
+    <text x="0" y="704" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      challenge of the future. Here will be 
+    </text>
+    <text x="0" y="768" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      the wonders of nature and man for all 
+    </text>
+    <text x="0" y="832" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      to see and understand. Disneyland will 
+    </text>
+    <text x="0" y="896" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      be based upon and dedicated to the 
+    </text>
+    <text x="0" y="960" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      ideals, the dreams and hard facts that 
+    </text>
+    <text x="0" y="1024" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      have created America. And it will be 
+    </text>
+    <text x="0" y="1088" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      uniquely equipped to dramatize these 
+    </text>
+    <text x="0" y="1152" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      dreams and facts and send them forth as 
+    </text>
+    <text x="0" y="1216" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      a source of courage and inspiration to 
+    </text>
+    <text x="0" y="1280" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      all the world. Disneyland will be 
+    </text>
+    <text x="0" y="1344" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      sometimes a fair, an exhibition, a 
+    </text>
+    <text x="0" y="1408" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      playground, a community center, a 
+    </text>
+    <text x="0" y="1472" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      museum of living facts, and a showplace 
+    </text>
+    <text x="0" y="1536" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      of beauty and magic. It will be filled 
+    </text>
+    <text x="0" y="1600" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      with accomplishments, the joys and 
+    </text>
+    <text x="0" y="1664" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      hopes of the world we live in. And it 
+    </text>
+    <text x="0" y="1728" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      will remind us and show us how to make 
+    </text>
+    <text x="0" y="1792" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
+      these wonders part of our own lives."
+    </text>
+  </g>
+
+  <!-- Speaker Image and Name -->
+  <g>
+    <clipPath id="circleMask">
+      <circle cx="926" cy="2002" r="50" />
+    </clipPath>
+    <image href="https://www.disneyquoteoftheday.com/assets/images/Walt_Disney_1946_cropped_100x100.JPG" x="876" y="1952" width="100" height="100" clip-path="url(#circleMask)" />
+    <text x="828" y="2018" font-size="32" text-anchor="end" font-family="sans-serif" fill="#000000">
+      - Walt Disney
+    </text>
+  </g>
+  <text y="2076" x="512" text-anchor="middle" fill="#000000" font-size="24">
+    www.disneyquoteoftheday.com
+  </text>
+</svg>
