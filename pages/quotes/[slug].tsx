@@ -81,6 +81,10 @@ export async function getStaticProps({ params }: Params) {
       },
       latestSlug: latestQuote.slug,
     },
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every hour
+    revalidate: 60 * 60,
   }
 }
 
@@ -95,6 +99,9 @@ export async function getStaticPaths() {
         },
       }
     }),
-    fallback: false,
+    // We'll pre-render only these paths at build time.
+    // { fallback: 'blocking' } will server-render pages
+    // on-demand if the path doesn't exist.
+    fallback: 'blocking',
   }
 }
