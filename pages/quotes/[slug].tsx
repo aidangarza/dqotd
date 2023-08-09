@@ -81,7 +81,6 @@ export async function getStaticProps({ params }: Params) {
     'slug',
     'content',
     'excerpt',
-    'ogImage',
     'speaker',
     'releaseDate',
   ])
