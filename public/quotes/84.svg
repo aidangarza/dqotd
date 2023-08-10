@@ -11,7 +11,7 @@
   <!-- Quote Text -->
   <g transform="translate(48, 112)">
     <text x="0" y="0" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
-      "Disnevland is a thing that I can keep 
+      Disneyland is a thing that I can keep 
     </text>
     <text x="0" y="64" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
       molding and shaping. It's a 
@@ -29,7 +29,7 @@
       practical eve toward its appeal to the 
     </text>
     <text x="0" y="384" font-size="48" fill="#000000" font-family="sans-serif" text-anchor="start">
-      public."
+      public.
     </text>
   </g>
 
