@@ -30,31 +30,15 @@ fi
 input_csv="$1"
 
 # Loop through each line in the CSV file
-while IFS=, read -r excerpt speaker_name speaker_picture ogImage_url releaseDate content; do
+while IFS=, read -r excerpt speaker_name speaker_picture releaseDate content; do
     # Increment index counter
     ((index++))
 
     # Generate random color
     color=$(./random_color.sh)
 
-    # Remove commas from excerpt
-    cleaned_excerpt="${excerpt//,/}"
-
-    # Remove double quotes from content
-    cleaned_content="${content//\"/}"
-
     # Generate markdown content
-    markdown_content="---
-excerpt: \"$cleaned_excerpt\"
-speaker:
-  name: '$speaker_name'
-  picture: '$speaker_picture'
-ogImage:
-  url: '$ogImage_url'
-color: '$color'
-releaseDate: '$releaseDate'
----
-$cleaned_content"
+    markdown_content=$(./make_md_content.sh "$excerpt" "$speaker_name" "$speaker_picture" "$releaseDate" "$content" "$color")
 
     # Create markdown file
     filename="${output_dir}/${index}.md"
