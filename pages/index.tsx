@@ -4,12 +4,11 @@ import { getLatestQuote } from '../lib/api'
 import Head from 'next/head'
 import Quote from '../interfaces/quote'
 import QuoteBody from '../components/quote-body'
-import { PATH_QUOTE_IMAGE, SITE_NAME, SITE_SHORTURL } from '../lib/constants'
 import Header from '../components/header'
-import formatDate from '../lib/formatDate'
 import markdownToHtml from '../lib/markdownToHtml'
 import DateFormatter from '../components/date-formatter'
 import Promotion from '../components/promotion'
+import QuoteMeta from '../components/quote-meta'
 
 type Props = {
   latestQuote: Quote
@@ -18,21 +17,7 @@ type Props = {
 export default function Index({ latestQuote }: Props) {
   return (
     <Layout>
-      <Head>
-        <title>{`${SITE_NAME} | ${formatDate(latestQuote.releaseDate)}`}</title>
-        <meta
-          property="og:image"
-          content={SITE_SHORTURL + PATH_QUOTE_IMAGE(latestQuote.slug)}
-        />
-        <meta
-          name="description"
-          content={`A quote from ${
-            latestQuote.speaker.name
-          }. Posted on ${formatDate(latestQuote.releaseDate)}. "${
-            latestQuote.excerpt
-          }..."`}
-        />
-      </Head>
+      <QuoteMeta quote={latestQuote} />
       <Container fullScreen>
         <Header
           title={

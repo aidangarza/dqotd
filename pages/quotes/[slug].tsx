@@ -6,12 +6,11 @@ import Header from '../../components/header'
 import Layout from '../../components/layout'
 import { getQuoteBySlug, getAllQuotes, getLatestQuote } from '../../lib/api'
 import Head from 'next/head'
-import { PATH_QUOTE_IMAGE, SITE_NAME, SITE_SHORTURL } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type QuoteType from '../../interfaces/quote'
-import formatDate from '../../lib/formatDate'
 import DateFormatter from '../../components/date-formatter'
 import Promotion from '../../components/promotion'
+import QuoteMeta from '../../components/quote-meta'
 
 type Props = {
   post: QuoteType
@@ -21,10 +20,11 @@ type Props = {
 
 export default function Post({ post, latestSlug, preview }: Props) {
   const router = useRouter()
-  const title = `${SITE_NAME} | ${formatDate(post.releaseDate)}`
+
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
+
   return (
     <Layout preview={preview}>
       <Container fullScreen>
@@ -32,21 +32,7 @@ export default function Post({ post, latestSlug, preview }: Props) {
           <Header title="Loading…" />
         ) : (
           <>
-            <Head>
-              <title>{title}</title>
-              <meta
-                property="og:image"
-                content={SITE_SHORTURL + PATH_QUOTE_IMAGE(post.slug)}
-              />
-              <meta
-                name="description"
-                content={`A quote from ${
-                  post.speaker.name
-                }. Posted on ${formatDate(post.releaseDate)}. "${
-                  post.excerpt
-                }..."`}
-              />
-            </Head>
+            <QuoteMeta quote={post} />
             <Header
               title={
                 <>
