@@ -10,6 +10,7 @@ export const PATH_HOME = '/'
 export const PATH_QUOTE = (slug: number) => `/quotes/${slug}`
 export const PATH_QUOTE_IMAGE = (slug: number) => `/quotes/${slug}.png`
 export const PATH_ARCHIVE = '/archive'
+export const PATH_LICENSE = '/license'
 
 // Social
 export const HOME_OG_IMAGE_PATH =

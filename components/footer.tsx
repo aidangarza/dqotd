@@ -1,5 +1,5 @@
 import Container from './container'
-import { PATH_HOME, PATH_ARCHIVE } from '../lib/constants'
+import { PATH_HOME, PATH_ARCHIVE, PATH_LICENSE } from '../lib/constants'
 import Link from 'next/link'
 
 const LINKS = [
@@ -40,6 +40,26 @@ const Footer = () => {
               </Link>
             ))}
           </div>
+        </div>
+        <div className="mb-6">
+          <p className="text-center text-neutral-500 text-sm">
+            This work is licensed under a{' '}
+            <a
+              href="https://creativecommons.org/licenses/by-nc/2.5/"
+              target="_blank"
+              className="underline"
+            >
+              Creative Commons Attribution-NonCommercial 2.5 License
+            </a>
+            .
+          </p>
+          <p className="text-center text-neutral-500 text-sm">
+            This means you're free to copy and share these images (but not to
+            sell them).{' '}
+            <Link href={PATH_LICENSE} className="underline">
+              More details.
+            </Link>
+          </p>
         </div>
       </Container>
     </footer>
