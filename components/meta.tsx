@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { HOME_OG_IMAGE_PATH, SITE_SHORTURL } from '../lib/constants'
 
 const Meta = () => {
   return (

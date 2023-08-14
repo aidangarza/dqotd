@@ -3,7 +3,6 @@ import QuoteNavigation from './quote-navigation'
 import { PATH_QUOTE, PATH_QUOTE_IMAGE, SITE_SHORTURL } from '../lib/constants'
 import Speaker from '../interfaces/speaker'
 import Avatar from './avatar'
-import QuoteImage from './quote-image'
 
 type Props = {
   slug: number
@@ -24,7 +23,7 @@ const QuoteBody = ({ slug, content, excerpt, speaker, latestSlug }: Props) => {
       <img
         src={PATH_QUOTE_IMAGE(slug)}
         className="w-full"
-        alt={`Quote by ${speaker.name}`}
+        alt={`Quote by ${speaker.name}, "${excerpt}..."`}
       />
 
       <div className="sr-only">

@@ -1,7 +1,6 @@
 import Container from '../components/container'
 import Layout from '../components/layout'
 import { getLatestQuote } from '../lib/api'
-import Head from 'next/head'
 import Quote from '../interfaces/quote'
 import QuoteBody from '../components/quote-body'
 import Header from '../components/header'

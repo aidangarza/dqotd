@@ -1,6 +1,6 @@
 import Container from '../components/container'
 import Layout from '../components/layout'
-import { getActiveQuotes, getAllQuotes, getLatestQuote } from '../lib/api'
+import { getActiveQuotes } from '../lib/api'
 import Head from 'next/head'
 import Quote from '../interfaces/quote'
 import { PATH_QUOTE, SITE_NAME } from '../lib/constants'
@@ -44,5 +44,9 @@ export const getStaticProps = async () => {
     props: {
       allQuotes,
     },
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every hour
+    revalidate: 60 * 60,
   }
 }

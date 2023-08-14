@@ -2,7 +2,7 @@ import Layout from '../components/layout'
 import Head from 'next/head'
 import Container from '../components/container'
 import Header from '../components/header'
-import { SITE_NAME, SITE_SHORTURL } from '../lib/constants'
+import { SITE_NAME } from '../lib/constants'
 
 const Comment = ({ text }: { text: string }) => (
   <div dangerouslySetInnerHTML={{ __html: `<!-- ${text} -->` }} />

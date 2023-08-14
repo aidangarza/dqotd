@@ -28,13 +28,13 @@ export default function wordwrap(
           if (lines[i].length + chunk.length > stop) {
             lines[i] = lines[i].replace(/\s+$/, '')
 
-            chunk.split(/\n/).forEach(function (c) {
+            chunk.split(/\n/).forEach(function (c: string) {
               lines.push(new Array(start + 1).join(' ') + c.replace(/^\s+/, ''))
             })
           } else if (chunk.match(/\n/)) {
             let xs = chunk.split(/\n/)
             lines[i] += xs.shift()
-            xs.forEach(function (c) {
+            xs.forEach(function (c: string) {
               lines.push(new Array(start + 1).join(' ') + c.replace(/^\s+/, ''))
             })
           } else {
