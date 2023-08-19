@@ -14,10 +14,9 @@ import QuoteMeta from '../../components/quote-meta'
 type Props = {
   post: QuoteType
   latestSlug: number
-  preview?: boolean
 }
 
-export default function Post({ post, latestSlug, preview }: Props) {
+export default function Post({ post, latestSlug }: Props) {
   const router = useRouter()
 
   if (!router.isFallback && !post?.slug) {
@@ -25,7 +24,7 @@ export default function Post({ post, latestSlug, preview }: Props) {
   }
 
   return (
-    <Layout preview={preview}>
+    <Layout>
       <Container fullScreen>
         {router.isFallback ? (
           <Header title="Loading…" />
